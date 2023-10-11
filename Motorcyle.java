@@ -7,7 +7,7 @@ public class Motorcycle extends Vehicle {
 			printWheels();
 			
 		}
-		public void printWheels() {
+		protected void printWheels() {
 			System.out.println("Wheels: "+ this.wheels);
 		}
 	}
