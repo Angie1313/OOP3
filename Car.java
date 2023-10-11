@@ -7,7 +7,7 @@
 			printDoors();
 			
 		}
-		public void printDoors() {
+		protected void printDoors() {
 			System.out.println("Doors: "+this.doors);
 		}
 	}
